@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.user{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 7.5rem;
+}
+.user-wrapper{
+  /* background-color: rgb(214, 223, 223); */
+  /* position: absolute;
+  top: 20%;
+  left: 30%; */
+ width: 280px;
+ height: 380px;
+ display: flex;
+ flex-direction: column;
+ border: 2px solid black;
+ text-align: center;
+ align-items: center;
+ border-radius: 1rem;
+}
+.logo{
+  margin-top: 2rem;
+  width: 200px;
+  margin-bottom: 2rem;
+}
+.user-info{
+  width: 220px;
+  padding: .5rem;
+  margin: .2rem  0rem;
+}
+
+.sign-btn{
+  width: 240px;
+  padding: .5rem;
+  margin: 1rem  0rem;
+  background-color: rgb(76,181,249);
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: .2rem;
+}
+.sign-btn:hover{
+ box-shadow: 1px 1px 1px 1px rgb(76,181,249);
+ cursor: pointer;
+}
+.sign-up{
+  color:rgb(76,181,249) ;
+  font-weight: bold;
+  font-size: 18px;
+}
